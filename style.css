@@ -17,7 +17,7 @@ body {
 
 .title-bar {
 	opacity: 90%;
-	background-color: rgb(86, 127, 214);
+	background-color: rgb(124, 164, 200);
 	font-size: 68px;
 	text-align: left;
 }
@@ -54,7 +54,7 @@ nav {
 	'navbar navbar navbar navbar';
 	list-style-type: none;
 	padding: 10px;
-	
+	text-align: center;
 }
 
 	ul {
@@ -94,8 +94,9 @@ li a:hover {
 }
 
 .services-images {
-	width:  100px;
-	height: 75px;
+	width:  150px;
+	height: 150px;
+	border-radius: 25%;
 }
 
 #thirty-years {
@@ -111,7 +112,7 @@ li a:hover {
 	width: 1000px;
 	height: 800px;
 	border: solid black	3px;
-	background-color: rgb(110, 56, 56);
+	background-color: rgb(8, 236, 217);
 	padding: 10px;;
 }
 
@@ -123,5 +124,9 @@ label, input, textarea {
 	height: 130px;
 	clear:left;
 	width: 100%;
-	background-color: rgb(9, 90, 47);
+	background-color: rgb(86, 127, 214);
+}
+
+.parahead {
+	text-decoration: underline;
 }
